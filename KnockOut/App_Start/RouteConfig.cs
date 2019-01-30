@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace KnockOut
+namespace MVCCRUDKnockout
 {
     public class RouteConfig
     {
@@ -16,7 +16,7 @@ namespace KnockOut
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Home", action = "Read", id = UrlParameter.Optional }
             );
         }
     }
