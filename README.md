@@ -3,6 +3,8 @@ CrudewithKnockOut
 
 
 Just Run Script.sql   in root folder 
+KnockOutDemo>>Script.sql 
+
 [TrialDB]
 
 
